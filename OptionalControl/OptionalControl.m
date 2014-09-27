@@ -6,6 +6,7 @@
 //    Copyright (c) 2014 zenangst. All rights reserved.
 //
 
+#import "NSObject+ZENSwizzle.h"
 #import "OptionalControl.h"
 
 static OptionalControl *sharedPlugin;
