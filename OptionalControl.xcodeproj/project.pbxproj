@@ -14,7 +14,7 @@
 		BD4A852719D6B66A0042BDB5 /* NSObject+ZENSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */; };
 		BD4A852919D6B8C60042BDB5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A852819D6B8C60042BDB5 /* DVTKit.framework */; };
 		BD4A852B19D6B8DB0042BDB5 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A852A19D6B8DB0042BDB5 /* IDEKit.framework */; };
-		BD4A852E19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A852D19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.m */; };
+		BD4A852E19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A852D19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +29,8 @@
 		BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZENSwizzle.m"; sourceTree = "<group>"; };
 		BD4A852819D6B8C60042BDB5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
 		BD4A852A19D6B8DB0042BDB5 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
-		BD4A852C19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEOpenQuicklyTableView+ZENOptionalControl.h"; sourceTree = "<group>"; };
-		BD4A852D19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEOpenQuicklyTableView+ZENOptionalControl.m"; sourceTree = "<group>"; };
+		BD4A852C19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTableView+ZENOptionalControl.h"; sourceTree = "<group>"; };
+		BD4A852D19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTableView+ZENOptionalControl.m"; sourceTree = "<group>"; };
 		BD4A852F19D6B9600042BDB5 /* DVTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTableView.h; sourceTree = "<group>"; };
 		BD4A853019D6B9600042BDB5 /* IDEOpenQuicklyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEOpenQuicklyTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				BD4ECD7019D6BA4C00A1FF59 /* Xcode Headers */,
-				BD4A852C19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.h */,
-				BD4A852D19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.m */,
+				BD4A852C19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.h */,
+				BD4A852D19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.m */,
 				BD4A852519D6B66A0042BDB5 /* NSObject+ZENSwizzle.h */,
 				BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */,
 				BD4A851D19D6B5F10042BDB5 /* OptionalControl.h */,
@@ -179,7 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD4A852719D6B66A0042BDB5 /* NSObject+ZENSwizzle.m in Sources */,
-				BD4A852E19D6B9100042BDB5 /* IDEOpenQuicklyTableView+ZENOptionalControl.m in Sources */,
+				BD4A852E19D6B9100042BDB5 /* DVTTableView+ZENOptionalControl.m in Sources */,
 				BD4A851F19D6B5F10042BDB5 /* OptionalControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

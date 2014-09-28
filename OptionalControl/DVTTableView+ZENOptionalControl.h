@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IDEOpenQuicklyTableView.h"
+#import "DVTTableView.h"
 
-@interface IDEOpenQuicklyTableView (ZENOptionalControl)
+@interface DVTTableView (ZENOptionalControl)
 
 @end

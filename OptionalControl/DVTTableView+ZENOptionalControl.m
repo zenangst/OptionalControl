@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 zenangst. All rights reserved.
 //
 
-#import "IDEOpenQuicklyTableView+ZENOptionalControl.h"
+#import "DVTTableView+ZENOptionalControl.h"
 #import "NSObject+ZENSwizzle.h"
 
-@implementation IDEOpenQuicklyTableView (ZENOptionalControl)
+@implementation DVTTableView (ZENOptionalControl)
 
 + (void)load
 {
@@ -19,8 +19,8 @@
 - (void)zen_optionalControl_keyDown:(NSEvent *)theEvent
 {
     BOOL letsNavigate = NO;
-    NSUInteger targetRow = 0;
     BOOL optionKeyPressed = (theEvent.modifierFlags & NSAlternateKeyMask) != 0;
+    NSUInteger targetRow = 0;
     
     NSNumber *keyCode = [NSNumber numberWithUnsignedShort:theEvent.keyCode];
     NSArray *upKeys   = @[@13, @35];
