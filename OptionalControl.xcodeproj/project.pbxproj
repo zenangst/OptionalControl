@@ -12,10 +12,7 @@
 		BD4A851C19D6B5F10042BDB5 /* OptionalControl.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = BD4A851B19D6B5F10042BDB5 /* OptionalControl.xcscheme */; };
 		BD4A851F19D6B5F10042BDB5 /* OptionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A851E19D6B5F10042BDB5 /* OptionalControl.m */; };
 		BD4A852719D6B66A0042BDB5 /* NSObject+ZENSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */; };
-		BD4A852919D6B8C60042BDB5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A852819D6B8C60042BDB5 /* DVTKit.framework */; };
-		BD4A852B19D6B8DB0042BDB5 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4A852A19D6B8DB0042BDB5 /* IDEKit.framework */; };
 		BD4A852E19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4A852D19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.m */; };
-		BDE903A919D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE903A819D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +25,8 @@
 		BD4A851E19D6B5F10042BDB5 /* OptionalControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalControl.m; sourceTree = "<group>"; };
 		BD4A852519D6B66A0042BDB5 /* NSObject+ZENSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZENSwizzle.h"; sourceTree = "<group>"; };
 		BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZENSwizzle.m"; sourceTree = "<group>"; };
-		BD4A852819D6B8C60042BDB5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
-		BD4A852A19D6B8DB0042BDB5 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
 		BD4A852C19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTableView+ZENOptionalControl.h"; sourceTree = "<group>"; };
 		BD4A852D19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+ZENOptionalControl.m"; sourceTree = "<group>"; };
-		BDE903A719D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDENavigationHUDController+ZENOptionalControl.h"; sourceTree = "<group>"; };
-		BDE903A819D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDENavigationHUDController+ZENOptionalControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4A852B19D6B8DB0042BDB5 /* IDEKit.framework in Frameworks */,
-				BD4A852919D6B8C60042BDB5 /* DVTKit.framework in Frameworks */,
 				BD4A851519D6B5F10042BDB5 /* AppKit.framework in Frameworks */,
 				BD4A851719D6B5F10042BDB5 /* Foundation.framework in Frameworks */,
 			);
@@ -71,8 +62,6 @@
 		BD4A851319D6B5F10042BDB5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BD4A852A19D6B8DB0042BDB5 /* IDEKit.framework */,
-				BD4A852819D6B8C60042BDB5 /* DVTKit.framework */,
 				BD4A851419D6B5F10042BDB5 /* AppKit.framework */,
 				BD4A851619D6B5F10042BDB5 /* Foundation.framework */,
 			);
@@ -84,8 +73,6 @@
 			children = (
 				BD4A852C19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.h */,
 				BD4A852D19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.m */,
-				BDE903A719D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.h */,
-				BDE903A819D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.m */,
 				BD4A852519D6B66A0042BDB5 /* NSObject+ZENSwizzle.h */,
 				BD4A852619D6B66A0042BDB5 /* NSObject+ZENSwizzle.m */,
 				BD4A851D19D6B5F10042BDB5 /* OptionalControl.h */,
@@ -171,7 +158,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE903A919D81F53005E0E94 /* IDENavigationHUDController+ZENOptionalControl.m in Sources */,
 				BD4A852719D6B66A0042BDB5 /* NSObject+ZENSwizzle.m in Sources */,
 				BD4A852E19D6B9100042BDB5 /* NSTableView+ZENOptionalControl.m in Sources */,
 				BD4A851F19D6B5F10042BDB5 /* OptionalControl.m in Sources */,
